@@ -18,7 +18,15 @@ h1 {
   font-size: 60px;
   line-height: 1;
   margin-bottom: 20px;
-}
+  }
+
+  h2:hover{
+    text-align: center;
+    letter-spacing: 20px;
+    font-weight: bold;
+    color: goldenrod
+  }
+
 
 a {
   /* Removes the underline on a link */
@@ -95,13 +103,14 @@ video {
 }
 
 #click:hover {
-    /*  */
+    /* Changes the size of an element */
     transform: scale(0.95);
 }
 
 #about {
     padding: 50px;
     text-align: center;
+    color: seagreen;
 }
 
 #about p {
